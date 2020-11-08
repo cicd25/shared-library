@@ -1,4 +1,4 @@
 def call(String message) {
 
-	print("INFO : ${message}")
+	print("[INFO] : ${message}")
 }
