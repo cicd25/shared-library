@@ -1,0 +1,13 @@
+# compile
+/build
+/out
+/job
+/bin
+
+
+# IDEA
+/.idea
+/.gradle
+/.settings
+.project
+*.iml
