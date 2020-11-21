@@ -1,0 +1,15 @@
+- entity: "node"
+  type: "page"
+  title: "Paragraph Example"
+  status: 1
+  # Populate an example paragraph field.
+  field_paragraph_content:
+    # Define a nested entity directly as a field item value.
+    - entity: 'paragraph'
+      type: 'rich_text'
+      field_title:
+        - value: "Paragraph Headline"
+      field_body:
+        - value: |
+            <p>Lorem ipsum...</p>
+          format: 'full_html'
