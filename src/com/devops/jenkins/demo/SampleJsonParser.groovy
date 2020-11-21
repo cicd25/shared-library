@@ -1,7 +1,7 @@
 package com.devops.jenkins.demo
 
 
-def jsonContentParse(def fileNamewithExt) {
+def jsonContentParse(def fileNameWithExt) {
 
 	def content = libraryResource encoding: 'UTF-8', resource: "$fileNameWithExt"
 	println "content : $content"	
